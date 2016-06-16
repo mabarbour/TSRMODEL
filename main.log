@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUN 2016 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUN 2016 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,30 +256,70 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count88
-\output=\toks16
-\linenoprevgraf=\count89
-\linenumbersep=\dimen103
-\linenumberwidth=\dimen104
-\c@linenumber=\count90
-\c@pagewiselinenumber=\count91
-\c@LN@truepage=\count92
-\c@internallinenumber=\count93
-\c@internallinenumbers=\count94
-\quotelinenumbersep=\dimen105
-\bframerule=\dimen106
-\bframesep=\dimen107
-\bframebox=\box26
-LaTeX Info: Redefining \\ on input line 3056.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks21
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
@@ -301,72 +341,79 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count95
+\Gread@gobject=\count100
 ))
-\Gin@req@height=\dimen108
-\Gin@req@width=\dimen109
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip46
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count101
+\output=\toks22
+\linenoprevgraf=\count102
+\linenumbersep=\dimen114
+\linenumberwidth=\dimen115
+\c@linenumber=\count103
+\c@pagewiselinenumber=\count104
+\c@LN@truepage=\count105
+\c@internallinenumber=\count106
+\c@internallinenumbers=\count107
+\quotelinenumbersep=\dimen116
+\bframerule=\dimen117
+\bframesep=\dimen118
+\bframebox=\box28
+LaTeX Info: Redefining \\ on input line 3056.
+) (./main.aux)
+\openout1 = `main.aux'.
 
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 43.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen110
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen111
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count96
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count97
-\leftroot@=\count98
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count99
-\DOTSCASE@=\count100
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen112
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
-\dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
-\tag@help=\toks19
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
-\andhelp@=\toks20
-\eqnshift@=\dimen113
-\alignsep@=\dimen114
-\tagshift@=\dimen115
-\tagwidth@=\dimen116
-\totwidth@=\dimen117
-\lineht@=\dimen118
-\@envbody=\toks21
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen119
+\scratchbox=\box29
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen120
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -384,29 +431,11 @@ Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -415,59 +444,26 @@ G,.JBIG2,.JB2,.eps]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)))
-(./main.aux)
-\openout1 = `main.aux'.
+))
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 45.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 46.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
-File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen119
-\scratchbox=\box29
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen120
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks24
-)
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 48.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 45.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 48.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 45.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 45.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -480,19 +476,19 @@ LaTeX Warning: No \author given.
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 81.
+(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 78.
 
 [2]
-Overfull \hbox (30.48952pt too wide) in paragraph at lines 133--137
+Overfull \hbox (30.48952pt too wide) in paragraph at lines 130--134
 []\OT1/pplx/m/n/10.95 The frequently-observed neg-a-tive re-la-tion-ship be-twe
 en tem-per-a-ture and body size, the temperature-
  []
 
 [3]
 LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 150.
+(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 147.
  [4] [5] [6] [7] [8]
-Overfull \hbox (31.27719pt too wide) in paragraph at lines 252--257
+Overfull \hbox (31.27719pt too wide) in paragraph at lines 249--254
 \OT1/pplx/m/n/10.95 par-tic-u-lar, Rall et al. (2012) ar-gue that cap-ture rate
  scales like $\OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 T
 \OT1/pplx/m/n/10.95 , \OML/zplm/m/it/10.95 M[]\OT1/pplx/m/n/10.95 , \OML/zplm/m
@@ -506,14 +502,14 @@ Overfull \hbox (31.27719pt too wide) in paragraph at lines 252--257
 File: IMAGES/BCRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/BCRAllTempMassDep.pdf>
-Package pdftex.def Info: IMAGES/BCRAllTempMassDep.pdf used on input line 351.
+Package pdftex.def Info: IMAGES/BCRAllTempMassDep.pdf used on input line 348.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/CtoRAllTempMassDep.pdf, id=56, 652.4375pt x 412.18794pt>
 File: IMAGES/CtoRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/CtoRAllTempMassDep.pdf>
-Package pdftex.def Info: IMAGES/CtoRAllTempMassDep.pdf used on input line 352.
+Package pdftex.def Info: IMAGES/CtoRAllTempMassDep.pdf used on input line 349.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/StabilityAllTempMassDep.pdf, id=57, 652.4375pt x 412.18794pt>
@@ -521,28 +517,28 @@ File: IMAGES/StabilityAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/StabilityAllTempMassDep.pdf>
 Package pdftex.def Info: IMAGES/StabilityAllTempMassDep.pdf used on input line 
-353.
+350.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/Figure2A.pdf, id=58, 469.755pt x 296.77574pt>
 File: IMAGES/Figure2A.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2A.pdf>
-Package pdftex.def Info: IMAGES/Figure2A.pdf used on input line 366.
+Package pdftex.def Info: IMAGES/Figure2A.pdf used on input line 363.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/Figure2B.pdf, id=59, 652.4375pt x 412.18794pt>
 File: IMAGES/Figure2B.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2B.pdf>
-Package pdftex.def Info: IMAGES/Figure2B.pdf used on input line 367.
+Package pdftex.def Info: IMAGES/Figure2B.pdf used on input line 364.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/Figure2C.pdf, id=60, 652.4375pt x 412.18794pt>
 File: IMAGES/Figure2C.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2C.pdf>
-Package pdftex.def Info: IMAGES/Figure2C.pdf used on input line 368.
+Package pdftex.def Info: IMAGES/Figure2C.pdf used on input line 365.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/FunctionalResponseTemp.pdf, id=61, 469.755pt x 296.77574pt>
@@ -550,42 +546,42 @@ File: IMAGES/FunctionalResponseTemp.pdf Graphic file (type pdf)
 
 <use IMAGES/FunctionalResponseTemp.pdf>
 Package pdftex.def Info: IMAGES/FunctionalResponseTemp.pdf used on input line 3
-80.
+77.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/BCRTypeII.pdf, id=62, 469.755pt x 296.77574pt>
 File: IMAGES/BCRTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/BCRTypeII.pdf>
-Package pdftex.def Info: IMAGES/BCRTypeII.pdf used on input line 408.
+Package pdftex.def Info: IMAGES/BCRTypeII.pdf used on input line 405.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/CtoRTypeII.pdf, id=63, 652.4375pt x 412.18794pt>
 File: IMAGES/CtoRTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/CtoRTypeII.pdf>
-Package pdftex.def Info: IMAGES/CtoRTypeII.pdf used on input line 409.
+Package pdftex.def Info: IMAGES/CtoRTypeII.pdf used on input line 406.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/StabilityTypeII.pdf, id=64, 652.4375pt x 412.18794pt>
 File: IMAGES/StabilityTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/StabilityTypeII.pdf>
-Package pdftex.def Info: IMAGES/StabilityTypeII.pdf used on input line 410.
+Package pdftex.def Info: IMAGES/StabilityTypeII.pdf used on input line 407.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/CaptureTSRAsymm.pdf, id=65, 652.4375pt x 412.18794pt>
 File: IMAGES/CaptureTSRAsymm.pdf Graphic file (type pdf)
 
 <use IMAGES/CaptureTSRAsymm.pdf>
-Package pdftex.def Info: IMAGES/CaptureTSRAsymm.pdf used on input line 424.
+Package pdftex.def Info: IMAGES/CaptureTSRAsymm.pdf used on input line 421.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/HandlingTSRAsymm.pdf, id=66, 652.4375pt x 412.18794pt>
 File: IMAGES/HandlingTSRAsymm.pdf Graphic file (type pdf)
 
 <use IMAGES/HandlingTSRAsymm.pdf>
-Package pdftex.def Info: IMAGES/HandlingTSRAsymm.pdf used on input line 425.
+Package pdftex.def Info: IMAGES/HandlingTSRAsymm.pdf used on input line 422.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
  [14] [15 <./IMAGES/BCRAllTempMassDep.pdf> <./IMAGES/CtoRAllTempMassDep.pdf> <.
 /IMAGES/StabilityAllTempMassDep.pdf>] [16 <./IMAGES/Figure2A.pdf> <./IMAGES/Fig
@@ -594,13 +590,13 @@ ure2B.pdf> <./IMAGES/Figure2C.pdf>] [17 <./IMAGES/FunctionalResponseTemp.pdf>]
 I.pdf>] [19 <./IMAGES/CaptureTSRAsymm.pdf> <./IMAGES/HandlingTSRAsymm.pdf>] (./
 main.aux) ) 
 Here is how much of TeX's memory you used:
- 3162 strings out of 493089
- 43149 string characters out of 6134842
- 110167 words of memory out of 5000000
- 6546 multiletter control sequences out of 15000+600000
+ 3156 strings out of 493089
+ 42954 string characters out of 6134842
+ 110164 words of memory out of 5000000
+ 6542 multiletter control sequences out of 15000+600000
  34877 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,32p,1014b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,32p,1014b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
@@ -613,7 +609,7 @@ ve/2015/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 669281 bytes).
+Output written on main.pdf (19 pages, 669238 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams

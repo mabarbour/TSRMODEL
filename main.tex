@@ -53,7 +53,7 @@ Temperature-dependent body size alters the effects of temperature on consumer re
 
 \bigskip
 
-\textit{Manuscript elements}: Figure~1, figure~2?, figure~3?, supplementary \texttt{Mathematica} file.
+\textit{Manuscript elements}: Figure~1, figure~2, figure~3, supplementary \texttt{Mathematica} file.
 \bigskip
 
 \textit{Keywords}: Metabolic theory, predator-prey, plant-herbivore, body size, allometry, functional response, mathematical model.
@@ -122,7 +122,7 @@ Our analyses suggest that the effect of temperature on body size likely plays an
 
 Populations of consumers and their resources are joined across time by the fact that energy to the consumer comes from the resource, and the consumer determines mortality rates of the resource. 
 In these systems, temperature-dependent consumption, growth and mortality rates can change dynamics and their outcomes. 
-Through the temperature-dependence of metabolism \citep{West1997,Gillooly2001} and hence demographic vital rates, small changes in temperature that are not necessarily physiologically stressful for organisms can translate to changes in the stability and coexistence of consumers and their resources, producing predictable but non-intuitive effects of warming on simple food webs \citep{Gilbert2014,Vasseur2005,OConnor2011,Rall2010}. 
+Through the temperature-dependence of metabolism \citep{West1997,Gillooly2001} and hence temperature-dependent demographic vital rates, small changes in temperature that are not necessarily physiologically stressful for organisms can translate to changes in the stability and coexistence of consumers and their resources, producing predictable but non-intuitive effects of warming on simple food webs \citep{Gilbert2014,Vasseur2005,OConnor2011,Rall2010}. 
 
 Demographic rates and consumer-resource interactions also depend on body size \citep{Yodzis1992,DeLong2015}. 
 Not only do rates of growth, mortality and consumption scale predictably with individual body sizes, but the consumption rates of consumer-resource systems can also depend on the ratio of body masses between consumers and prey \citep{Kalinkat2013}. 
@@ -134,11 +134,11 @@ Although the mechanism for declining body size with warming varies among example
 \citet{Forster2012} reported a mean slope of -3.65$\%/ ^\circ C$ for aquatic organisms, ranging from -1.80$\% / ^\circ C$ for unicells, and becoming stronger (more negative) in increasingly large aquatic multicelled organisms.
 
 Because body size is so central to consumer-resource dynamics, such a systematic pattern of changing body size with temperature could alter predictions for how temperature affects stability, persistence and coexistence in consumer-resource systems. 
-We therefore integrated the temperature size rule into a general framework for temperature-dependent consumer-resource interactions to answer the following questions: 
-1) How does the TSR affect stability and consumer:resource biomass ratios over a temperature gradient?;
-2) Does the effect of the TSR depend on whether consumer and resource body sizes respond similarly to temperature?; 
-3) Does the effect of the TSR depend on the form of the functional response?; 
-and finally, 4) does the TSR itself induce a change in the functional response?
+We therefore integrated the TSR into a general framework for temperature-dependent consumer-resource interactions to answer the following questions: 
+1) How does the TSR affect stability and consumer:resource biomass ratios over a temperature gradient?, 
+2) Does the effect of the TSR depend on whether consumer and resource body sizes respond similarly to temperature?, 
+3) Does the effect of the TSR depend on the form of the functional response?, 
+And finally, 4) does the TSR itself induce a change in the functional response?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Methods and results}
@@ -182,7 +182,7 @@ Dividing the second aggregate by the first gives a measure that defines the biom
 
 In what follows we will examine how our three measures, $B_{CR}$, $\hat{C}:\hat{R}$, and stability, change with temperature.
 We start by assuming a type-I functional response, $f(R) = a$, where $a$ is called the attack rate, which describes the rate of resource consumption per resource biomass.
-We later explore the effect of a type-II functional response and the potential for the functional response to change with changes in the environment.
+We later explore the effect of a type-II functional response and the potential for the functional response to change with changes in temperature.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Adding temperature dependence}
@@ -205,6 +205,7 @@ These changes are largely driven by the temperature dependence of consumer morta
 % MO: why do you attribute the decline in C:R biomass and relatively greater stability to higher consumer mortality (primarily)? Is the logic something like: increasing m, by itself, would create this pattern; increasing r, by itself, would increase C:R, but also increase stability (at least in type 1); and increasing a, by itself, would increase C:R, but decrease stability? I'm mainly asking to also check my understanding of the influence of different parameters on C-R models.
 %
 % ^.
+%no, this isn't a logic thing at all but simply me including or excluding the temperature dependence of parameters in the mathematica file until i find which one is driving the pattern. so here for example, when i make m temperature-independent the prediction looks much like gilberts, and dropping temp dependence of the other parameters does not affect things as much. (MMO)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Adding mass dependence and the temperature size-rule}
@@ -223,7 +224,7 @@ This linear decline best approximates the response of organisms with a dry mass 
 
 The red curves in Figure \ref{AllTempMassDep} depict our main results: adding mass dependencies and the temperature-size rule modifies our prediction of how consumer-resource dynamics respond to changes in temperature.
 While there is little change in $B_{CR}$, the equilibrium consumer to resource biomass ratio is no longer expected to decline with increasing temperature and stability is now expected to increase.
-These changes are brought on by the indirect effect of temperature, through body mass, on the population dynamic parameters.
+These changes are brought on by the indirect effect of temperature, through body mass, on the population dynamic parameters, which are acting in opposition to its direct effects.
 In particular, the lack of decline in the consumer to resource biomass ratio with the temperature-size rule, relative to the case without it, is primarily driven by changes in consumer conversion efficiency and the intrinsic growth rate of the resource.
 Both of these rates increase with declining body mass, supporting a relatively larger consumer biomass. 
 The increase in stability at high temperatures with the temperature-size rule is caused by the increase in the resource's intrinsic growth rate along with a decrease in attack rate with decreasing consumer body size. 
@@ -232,14 +233,16 @@ The increase in stability at high temperatures with the temperature-size rule is
 % It looks like mortality rate would also increase with declining body mass, won't this also contribute to increased stability (although I understand that it would decrease C:R)
 %
 % ^.
-The indirect effects of temperature are acting in opposition to its direct effects.
-In the case of stability, the indirect effects are strong enough to override the direct effects, producing a qualitatively different prediction of how consumer-resource systems will respond to temperature.
+%logic is like that explained above: i just drop the mass dependencies of each parameter in turn and see which ones are having the largest effect (see mathematica file) (MMO)
+%
+%The indirect effects of temperature are acting in opposition to its direct effects.
+So we see that, in the case of stability, the indirect effects of temperature are strong enough to override its direct effects, producing a qualitatively different prediction of how consumer-resource systems will respond to temperature.
 %The increase in stability with the temperature-size rule stimulates the tantalizing possibility that its existence is adaptive, although obviously much more careful thought is needed here.
 
 In the supplementary \texttt{Mathematica} file we explore how the strength of the temperature-size response $\beta_C = \beta_R = \beta$ affects our predictions (see also Figure \ref{StrengthAsymm}, green). 
 We find that predictions for biomass ratio and stability at higher temperatures differ qualitatively from those of \cite{Gilbert2014} for $\beta\geq0.02$.
 The biomass ratio begins to increase with temperature around $\beta\sim0.03$.
-Larger temperature-size responses cause both the biomass ratio and stability to increase faster with temperature (and decrease faster with declining temperature).
+Larger temperature-size responses cause both the biomass ratio and stability to increase faster with temperature. %(and decrease faster with declining temperature).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Exploring asymmetric temperature-size responses}
@@ -269,7 +272,7 @@ Much of the difference in the response of the functional responses to temperatur
 When capture rate has the same temperature- and mass- dependencies as attack rate (\cite{Gilbert2014}), there is little difference between the response of the type-I and type-II functional responses to temperature (compare black to blue in Figure \ref{FunctionalResponseTemp}).
 
 With the parameter values given in \cite{Rall2012}, we can plot $B_{CR}$, $\hat{C}:\hat{R}$, and stability as functions of temperature when there is a type-II functional response (see supplementary \texttt{Mathematica} file).
-The main conclusions are: in comparison to a type-I functional response, a type-II functional response i) makes the $B_{CR}$ slopes more positive (increasing the response to temperature when $E_S > E_B$), ii) makes equilibrium biomass ratios increase with temperature, and iii) makes stability increase more quickly with temperature, despite the fact that a type-II functional response decreases stability at our reference temperature (15$^\circ$C, i.e., without a direct or indirect temperature response).
+The main conclusions are: in comparison to a type-I functional response, a type-II functional response i) makes $B_{CR}$ increase faster with temperature, ii) makes equilibrium biomass ratios increase with temperature, and iii) makes stability increase more quickly with temperature, despite the fact that a type-II functional response decreases stability at our reference temperature (15$^\circ$C, i.e., without a direct or indirect temperature response).
 Thus, a type-II functional response, like asymmetric temperature-size responses, causes our predictions to vary further from those without the temperature-size rule \citep{Gilbert2014}.
 % * <barbour@zoology.ubc.ca> 2016-06-24T13:57:51.700Z:
 %
@@ -288,7 +291,7 @@ Larger handling times prevent the exponential increase in stability with tempera
 
 \cite{Rall2012} complied a large database on capture rates and handling times and compared the data to their theoretical predictions.
 They found that capture rate and handling time responded less strongly to temperature than expected (see their Figure 2a,d).
-Interestingly, we found that the temperature-size rule reduces the sensitivity of both capture rate and handling time to temperature (see supplementary \texttt{Mathematica} file for details), and hence may help explain the discrepancies observed. 
+Interestingly, we find that the temperature-size rule reduces the sensitivity of both capture rate and handling time to temperature (see supplementary \texttt{Mathematica} file for details), and hence may help explain the discrepancies observed. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{A functional response that depends on the body size ratio}
@@ -306,11 +309,28 @@ However, the amount by which the shape of the functional response is adjusted by
 \section*{Discussion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Our results suggest changes in body size with warming have important dynamical consequences for food webs in changing thermal environments. In a temperature-dependent consumer-resource model, declining body size with warming changes the outcome of consumer-resource dynamics in response to temperature. When body size declines with warming consistent with empirical observations of rates of decline, consumer-resource biomass ratios are resistant to a change in temperature. Further, a TSR response facilitates a slight increase in system stability with warming, relative to a decrease without shifts in body size. At the same time, the bioenergetic interaction strength metric (BCR) is relatively unaffected by the TSR. 
+Our results suggest changes in body size with warming have important dynamical consequences for food webs in changing thermal environments. 
+In our temperature- and mass-dependent consumer-resource model, declining body size with warming changes the predicted outcome of consumer-resource dynamics in response to temperature. 
+When body size declines with warming at a rate consistent with empirical observations (\cite{Forster2012}), consumer-resource biomass ratios remain stable under warming. 
+Further, a TSR response facilitates a slight increase in system stability with warming, relative to a decrease in stability without shifts in body size. 
+At the same time, the bioenergetic interaction strength metric (BCR) is relatively unaffected by the TSR. 
 
-When consumer and resource body size decline at the same rate with warming, there is no shift in consumer-resource size ratio over the temperature gradient. In this case, deviations in how consumer resource biomass ratios respond to temperature, compared with a system with no TSR, reflect body mass-dependence of demographic parameters. In this way, temperature acts on the system first by directly altering demographic rates, and then by indirectly altering rates through allometric scaling relationships. The response of the resource to warming, through growth rate and body size, allows the resource to support a relatively greater consumer biomass at higher temperatures if body sizes decline. When we allowed larger organisms to experience a greater decline in body size with warming, and thus a temperature-dependent predator-prey size ratio, effects of the TSR were further amplified relative to a model with symmetric declines in body size. 
+%When consumer and resource body sizes decline (proportionally) at the same rate with warming, there is no shift in the consumer to resource body size ratio over the temperature gradient. 
+%In this case, deviations in how consumer and resource biomass respond to temperature, compared with a system with no TSR, reflects the body mass-dependence of demographic parameters. 
+Deviations in the response of consumer-resource dynamics to temperature, compared to a system with no TSR, reflects the body mass-dependence of demographic parameters. 
+In this way, temperature acts on the system first by directly altering demographic rates, and then by indirectly altering demographic rates through allometric scaling relationships. 
+For instance, the indirect response of the resource to warming - increased intrinsic growth rates at smaller body sizes - allows the resource to support a relatively greater consumer biomass at higher temperatures if body sizes decline. 
+When we allowed larger (consumer) organisms to experience a greater decline in body size with warming, and thus a temperature-dependent consumer-resource body size ratio, effects of the TSR were further amplified relative to a model with symmetric declines in body size. %this last sentence could start a new paragraph? (MMO)
 
-The body size decline rates we used here are drawn from comprehensive syntheses of observed temperature-body size correlations in organisms ranging from fish to microbes (refs). Most evidence for the TSR is empirical, not theoretical, and the rates of decline are not (yet) predictable \textit{a priori}. (what would DeLong say about this?). Drawing on this evidence, we considered effects of body size shifts within species over generations. This model does not consider shifts in species composition that could further compound the dynamical effects of shifts in body size, and addition to altering attack rates and other parameters. Our model also assumes that body size responds to temperature independently of any effects of the changing consumer-resource interaction on body size. In other words, consumer-resource interactions can select for optimal body sizes (REF), and this selection may vary over a thermal gradient. But here, we only modeled a decline in size due to some mechanisms that is independent of CR interaction.
+The body size decline rates used here were drawn from a comprehensive synthesis of experimentally observed temperature-body size responses in organisms ranging from fish to microbes (\cite{Forster2012}). 
+Although there are a number of theoretical explanations for the TSR (\cite{Berrigan1994,Perrin1995,VanderHave1996,Angilletta2003,DeLong2012}), much of its support is empirical, and rates of decline are not yet predictable a priori.
+Drawing on this empirical evidence, we considered effects of instantaneous body size shifts within species. 
+
+%Limitations
+This model does not consider shifts in species composition that could further compound the dynamical effects of shifts in body size. 
+Our model also assumes that body size responds to temperature independently of any effects of the changing consumer-resource interaction on body size. 
+In other words, consumer-resource interactions can select for optimal body sizes (\cite{Abrams1996}), and this selection may vary over a thermal gradient. 
+%But here, we only modelled a decline in size due to some mechanisms that is independent of CR interaction.
 % * <joey.bernhardt@biodiversity.ubc.ca> 2016-06-24T04:19:49.804Z:
 %
 % > In other words, consumer-resource interactions can select for optimal body sizes (REF), and this selection may vary over a thermal gradient. But here, we only modeled a decline in size due to some mechanisms that is independent of CR interaction.
@@ -323,12 +343,15 @@ The body size decline rates we used here are drawn from comprehensive syntheses 
 % I'm thinking it could be useful to have a paragraph that discusses how our results connect more generally to consumer-resource theory. All of the parameters in the C-R models, when varied independently, have predictable effects on C:R biomass ratios and stability (at least according to Kevin McCann's book).  For example, both the direct and indirect effects of increasing temperature result in increasing consumer mortality, which will decrease C:R ratios and increase stability. However, temperature simultaneously affects all of these parameters in the model (a point that perhaps wasn't clear in Gilbert et al. 2014, due to Fig. 3). In this scenario, the relative changes in these parameter values will govern the dynamics of the system. Based on the published syntheses which our study is based on, it seems like intrinsic growth rate is the most sensitive of the C-R parameters to the direct and indirect effects of temperature, and so is driving our findings that C:R ratios can increase and stay high, while stability is actually decreasing. Therefore, I think a job for empiricists is to measure the relative changes in the parameters for their system, because this will aid predictions about how increasing temperature will affect C:R biomass and stability. On a related note, the effects of increasing r (which is an important driver of the patterns we are seeing) depends on the geometry of the C:R isoclines. At the very least, I think we should make a point to say that increases in r, may actually destabilize a system that is exhibiting oscillatory dynamics, whereas it tends to increase stability when the system has a stable equilibrium.
 %
 % ^.
-[someone want to take it from here?] We have extended a general model for how temperature affects consumer-resource interactions to include a major empirical pattern, the TSR. Further extensions could include integrating multiple trophic levels to determine how temperature and the TSR affect trophic cascade strength. Our model suggests it would weaken it. [do we really want to go here?]. 
+%[someone want to take it from here?] 
+We have extended a general model for how temperature affects consumer-resource interactions by including a major empirical pattern, the TSR. 
+Further extensions could include integrating multiple trophic levels to determine how temperature and the TSR affect trophic cascade strength. 
+Our model suggests it would weaken it. %[do we really want to go here?]. 
 
-Possible experiment to test the effect of the TSR:
-Our main predictions: equilibrium consumer to resource biomass ratio is expected to increase with temperature (due to increases in consumer conversion efficiency and the growth rate of the resource associated with declining body sizes). Could test this by comparing two systems: one where body size is allowed to decrease with temperature, and another where the smallest individuals are removed (or the opposite). 
+%Possible experiment to test the effect of the TSR:
+Our main predictions are: equilibrium consumer to resource biomass ratio is expected to increase with temperature (due to increases in consumer conversion efficiency and the growth rate of the resource associated with declining body sizes). Could test this by comparing two systems: one where body size is allowed to decrease with temperature, and another where the smallest individuals are removed (or the opposite). 
 
--talk about which areas are ripe for experimental exploration -- temperature dependencies of handling time/capture rate vs. magnitude and potential asymmetry of TSR responses
+%talk about which areas are ripe for experimental exploration -- temperature dependencies of handling time/capture rate vs. magnitude and potential asymmetry of TSR responses
 
 
 %%%%%%%%%%%%%%%%%%%%%

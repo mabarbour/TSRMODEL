@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  24 JUN 2016 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  24 JUN 2016 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,25 +580,27 @@ en tem-per-a-ture and body size, the temperature-
 [3]
 LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `OT1/pplx/b/n' tried instead on input line 148.
- [4] [5] [6] [7] [8] [9] [10] [11]
-Overfull \hbox (1.99942pt too wide) in paragraph at lines 309--310
-\OT1/pplx/m/n/10.95 for food webs in chang-ing ther-mal en-vi-ron-ments. In a t
-emperature-dependent consumer-resource
- []
+ [4] [5] [6] [7] [8] [9] [10] [11] [12]
+LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 332.
 
-[12] (./main.bbl [13] [14]) [15]
+
+Package natbib Warning: Citation `Abrams1996' on page 13 undefined on input lin
+e 332.
+
+(./main.bbl [13] [14]) [15]
 <IMAGES/BCRAllTempMassDep.pdf, id=61, 469.755pt x 296.77574pt>
 File: IMAGES/BCRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/BCRAllTempMassDep.pdf>
-Package pdftex.def Info: IMAGES/BCRAllTempMassDep.pdf used on input line 386.
+Package pdftex.def Info: IMAGES/BCRAllTempMassDep.pdf used on input line 409.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/CtoRAllTempMassDep.pdf, id=62, 652.4375pt x 412.18794pt>
 File: IMAGES/CtoRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/CtoRAllTempMassDep.pdf>
-Package pdftex.def Info: IMAGES/CtoRAllTempMassDep.pdf used on input line 387.
+Package pdftex.def Info: IMAGES/CtoRAllTempMassDep.pdf used on input line 410.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/StabilityAllTempMassDep.pdf, id=63, 652.4375pt x 412.18794pt>
@@ -606,28 +608,28 @@ File: IMAGES/StabilityAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/StabilityAllTempMassDep.pdf>
 Package pdftex.def Info: IMAGES/StabilityAllTempMassDep.pdf used on input line 
-388.
+411.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/Figure2A.pdf, id=64, 469.755pt x 296.77574pt>
 File: IMAGES/Figure2A.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2A.pdf>
-Package pdftex.def Info: IMAGES/Figure2A.pdf used on input line 401.
+Package pdftex.def Info: IMAGES/Figure2A.pdf used on input line 424.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/Figure2B.pdf, id=65, 652.4375pt x 412.18794pt>
 File: IMAGES/Figure2B.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2B.pdf>
-Package pdftex.def Info: IMAGES/Figure2B.pdf used on input line 402.
+Package pdftex.def Info: IMAGES/Figure2B.pdf used on input line 425.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/Figure2C.pdf, id=66, 652.4375pt x 412.18794pt>
 File: IMAGES/Figure2C.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2C.pdf>
-Package pdftex.def Info: IMAGES/Figure2C.pdf used on input line 403.
+Package pdftex.def Info: IMAGES/Figure2C.pdf used on input line 426.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/FunctionalResponseTemp.pdf, id=67, 469.755pt x 296.77574pt>
@@ -635,70 +637,79 @@ File: IMAGES/FunctionalResponseTemp.pdf Graphic file (type pdf)
 
 <use IMAGES/FunctionalResponseTemp.pdf>
 Package pdftex.def Info: IMAGES/FunctionalResponseTemp.pdf used on input line 4
-15.
+38.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/BCRTypeII.pdf, id=68, 469.755pt x 296.77574pt>
 File: IMAGES/BCRTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/BCRTypeII.pdf>
-Package pdftex.def Info: IMAGES/BCRTypeII.pdf used on input line 458.
+Package pdftex.def Info: IMAGES/BCRTypeII.pdf used on input line 481.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
 <IMAGES/CtoRTypeII.pdf, id=69, 652.4375pt x 412.18794pt>
 File: IMAGES/CtoRTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/CtoRTypeII.pdf>
-Package pdftex.def Info: IMAGES/CtoRTypeII.pdf used on input line 459.
+Package pdftex.def Info: IMAGES/CtoRTypeII.pdf used on input line 482.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/StabilityTypeII.pdf, id=70, 652.4375pt x 412.18794pt>
 File: IMAGES/StabilityTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/StabilityTypeII.pdf>
-Package pdftex.def Info: IMAGES/StabilityTypeII.pdf used on input line 460.
+Package pdftex.def Info: IMAGES/StabilityTypeII.pdf used on input line 483.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/CaptureTSRAsymm.pdf, id=71, 652.4375pt x 412.18794pt>
 File: IMAGES/CaptureTSRAsymm.pdf Graphic file (type pdf)
 
 <use IMAGES/CaptureTSRAsymm.pdf>
-Package pdftex.def Info: IMAGES/CaptureTSRAsymm.pdf used on input line 474.
+Package pdftex.def Info: IMAGES/CaptureTSRAsymm.pdf used on input line 497.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <IMAGES/HandlingTSRAsymm.pdf, id=72, 652.4375pt x 412.18794pt>
 File: IMAGES/HandlingTSRAsymm.pdf Graphic file (type pdf)
 
 <use IMAGES/HandlingTSRAsymm.pdf>
-Package pdftex.def Info: IMAGES/HandlingTSRAsymm.pdf used on input line 475.
+Package pdftex.def Info: IMAGES/HandlingTSRAsymm.pdf used on input line 498.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
- [16] [17 <./IMAGES/BCRAllTempMassDep.pdf> <./IMAGES/CtoRAllTempMassDep.pdf> <.
-/IMAGES/StabilityAllTempMassDep.pdf>] [18 <./IMAGES/Figure2A.pdf> <./IMAGES/Fig
-ure2B.pdf> <./IMAGES/Figure2C.pdf>] [19 <./IMAGES/FunctionalResponseTemp.pdf>] 
+
+
+Package natbib Warning: There were undefined citations.
+
+[16] [17 <./IMAGES/BCRAllTempMassDep.pdf> <./IMAGES/CtoRAllTempMassDep.pdf> <./
+IMAGES/StabilityAllTempMassDep.pdf>] [18 <./IMAGES/Figure2A.pdf> <./IMAGES/Figu
+re2B.pdf> <./IMAGES/Figure2C.pdf>] [19 <./IMAGES/FunctionalResponseTemp.pdf>]
 [20 <./IMAGES/BCRTypeII.pdf> <./IMAGES/CtoRTypeII.pdf> <./IMAGES/StabilityTypeI
-I.pdf>] [21 <./IMAGES/CaptureTSRAsymm.pdf> <./IMAGES/HandlingTSRAsymm.pdf>] (./
-main.aux) ) 
+I.pdf>] [21 <./IMAGES/CaptureTSRAsymm.pdf> <./IMAGES/HandlingTSRAsymm.pdf>]
+(./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+) ) 
 Here is how much of TeX's memory you used:
- 3252 strings out of 493033
- 43538 string characters out of 6134139
- 111448 words of memory out of 5000000
- 6689 multiletter control sequences out of 15000+600000
- 34877 words of font info for 91 fonts, out of 8000000 for 9000
+ 3271 strings out of 493033
+ 43886 string characters out of 6134139
+ 111599 words of memory out of 5000000
+ 6706 multiletter control sequences out of 15000+600000
+ 36201 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,32p,1669b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (21 pages, 672554 bytes).
+ 37i,8n,32p,1669b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (21 pages, 673594 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams

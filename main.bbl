@@ -1,10 +1,27 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Abrams and Rowe(1996)}]{Abrams1996}
+Abrams, P.~A., and L.~Rowe. 1996.
+\newblock {The effects of predation on the age and size of maturity of prey}.
+\newblock Evolution 50:1052--1061.
+
+\bibitem[{Angilletta and Dunham(2003)}]{Angilletta2003}
+Angilletta, M.~J., and A.~E. Dunham. 2003.
+\newblock {The temperature-size rule in ectotherms: simple evolutionary
+  explanations may not be general}.
+\newblock American Naturalist 162:332--342.
 
 \bibitem[{Atkinson(1994)}]{Atkinson1994}
 Atkinson, D. 1994.
 \newblock {Temperature and organism size - a biological law for ectotherms?}
 \newblock Advances in Ecological Research 25:1--58.
+
+\bibitem[{Berrigan and Charnov(1994)}]{Berrigan1994}
+Berrigan, D., and E.~Charnov. 1994.
+\newblock {Reaction norms for age and size at maturity in response to
+  temperature: a puzzle for life historians}.
+\newblock Oikos 70:474--478.
 
 \bibitem[{Daufresne et~al.(2009)Daufresne, Lengfellner, and
   Sommer}]{Daufresne2009}
@@ -68,6 +85,11 @@ O'Connor, M.~I., B.~Gilbert, and C.~J. Brown. 2011.
   interacting herbivores and plants.}
 \newblock The American Naturalist 178:626--38.
 
+\bibitem[{Perrin(1995)}]{Perrin1995}
+Perrin, N. 1995.
+\newblock {About Berrigan and Charnov's life-history puzzle}.
+\newblock oikos 73:137--139.
+
 \bibitem[{Rall et~al.(2012)Rall, Brose, Hartvig, Kalinkat, Schwarzmuller,
   Vucic-Pestic, and Petchey}]{Rall2012}
 Rall, B.~C., U.~Brose, M.~Hartvig, G.~Kalinkat, F.~Schwarzmuller,
@@ -88,6 +110,12 @@ Rosenzweig, M.~L., and R.~H. MacArthur. 1963.
 \newblock {Graphical representation and stability conditions of predator-prey
   interactions}.
 \newblock The American Naturalist 97:209--223.
+
+\bibitem[{van~der Have and de~Jong(1996)}]{VanderHave1996}
+van~der Have, T.~M., and G.~de~Jong. 1996.
+\newblock {Adult size in ectotherms: temperature effects on growth and
+  differentiation}.
+\newblock J. theor. Biol 183:329--340.
 
 \bibitem[{Vasseur and McCann(2005)}]{Vasseur2005}
 Vasseur, D.~A., and K.~S. McCann. 2005.

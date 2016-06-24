@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  15 JUN 2016 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  24 JUN 2016 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,134 +580,128 @@ en tem-per-a-ture and body size, the temperature-
 [3]
 LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `OT1/pplx/b/n' tried instead on input line 148.
- [4] [5] [6] [7] [8]
-Overfull \hbox (31.27719pt too wide) in paragraph at lines 250--255
-\OT1/pplx/m/n/10.95 par-tic-u-lar, Rall et al. (2012) ar-gue that cap-ture rate
- scales like $\OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 T
-\OT1/pplx/m/n/10.95 , \OML/zplm/m/it/10.95 M[]\OT1/pplx/m/n/10.95 , \OML/zplm/m
-/it/10.95 M[]\OT1/zplm/m/n/10.95 ) = \OML/zplm/m/it/10.95 b[]M[]M[] []\OT1/zplm
-/m/n/10.95 (\OMS/zplm/m/n/10.95 ^^@\OML/zplm/m/it/10.95 E[]\OT1/zplm/m/n/10.95 
-/(\OML/zplm/m/it/10.95 kT\OT1/zplm/m/n/10.95 ))$
+ [4] [5] [6] [7] [8] [9] [10] [11]
+Overfull \hbox (1.99942pt too wide) in paragraph at lines 309--310
+\OT1/pplx/m/n/10.95 for food webs in chang-ing ther-mal en-vi-ron-ments. In a t
+emperature-dependent consumer-resource
  []
 
-[9] [10] (./main.bbl [11] [12]) [13]
-<IMAGES/BCRAllTempMassDep.pdf, id=55, 469.755pt x 296.77574pt>
+[12] (./main.bbl [13] [14]) [15]
+<IMAGES/BCRAllTempMassDep.pdf, id=61, 469.755pt x 296.77574pt>
 File: IMAGES/BCRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/BCRAllTempMassDep.pdf>
-Package pdftex.def Info: IMAGES/BCRAllTempMassDep.pdf used on input line 345.
+Package pdftex.def Info: IMAGES/BCRAllTempMassDep.pdf used on input line 386.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
-<IMAGES/CtoRAllTempMassDep.pdf, id=56, 652.4375pt x 412.18794pt>
+<IMAGES/CtoRAllTempMassDep.pdf, id=62, 652.4375pt x 412.18794pt>
 File: IMAGES/CtoRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/CtoRAllTempMassDep.pdf>
-Package pdftex.def Info: IMAGES/CtoRAllTempMassDep.pdf used on input line 346.
+Package pdftex.def Info: IMAGES/CtoRAllTempMassDep.pdf used on input line 387.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
-<IMAGES/StabilityAllTempMassDep.pdf, id=57, 652.4375pt x 412.18794pt>
+<IMAGES/StabilityAllTempMassDep.pdf, id=63, 652.4375pt x 412.18794pt>
 File: IMAGES/StabilityAllTempMassDep.pdf Graphic file (type pdf)
 
 <use IMAGES/StabilityAllTempMassDep.pdf>
 Package pdftex.def Info: IMAGES/StabilityAllTempMassDep.pdf used on input line 
-347.
+388.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
-<IMAGES/Figure2A.pdf, id=58, 469.755pt x 296.77574pt>
+<IMAGES/Figure2A.pdf, id=64, 469.755pt x 296.77574pt>
 File: IMAGES/Figure2A.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2A.pdf>
-Package pdftex.def Info: IMAGES/Figure2A.pdf used on input line 359.
+Package pdftex.def Info: IMAGES/Figure2A.pdf used on input line 401.
 (pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
-<IMAGES/Figure2B.pdf, id=59, 652.4375pt x 412.18794pt>
+<IMAGES/Figure2B.pdf, id=65, 652.4375pt x 412.18794pt>
 File: IMAGES/Figure2B.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2B.pdf>
-Package pdftex.def Info: IMAGES/Figure2B.pdf used on input line 360.
+Package pdftex.def Info: IMAGES/Figure2B.pdf used on input line 402.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
-<IMAGES/Figure2C.pdf, id=60, 652.4375pt x 412.18794pt>
+<IMAGES/Figure2C.pdf, id=66, 652.4375pt x 412.18794pt>
 File: IMAGES/Figure2C.pdf Graphic file (type pdf)
 
 <use IMAGES/Figure2C.pdf>
-Package pdftex.def Info: IMAGES/Figure2C.pdf used on input line 361.
+Package pdftex.def Info: IMAGES/Figure2C.pdf used on input line 403.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
+<IMAGES/FunctionalResponseTemp.pdf, id=67, 469.755pt x 296.77574pt>
+File: IMAGES/FunctionalResponseTemp.pdf Graphic file (type pdf)
 
-LaTeX Warning: Float too large for page by 28.341pt on input line 368.
+<use IMAGES/FunctionalResponseTemp.pdf>
+Package pdftex.def Info: IMAGES/FunctionalResponseTemp.pdf used on input line 4
+15.
+(pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
-[14 <./IMAGES/BCRAllTempMassDep.pdf> <./IMAGES/CtoRAllTempMassDep.pdf> <./IMAGE
-S/StabilityAllTempMassDep.pdf>]
-<IMAGES/BCRTypeII.pdf, id=109, 652.4375pt x 412.18794pt>
+<IMAGES/BCRTypeII.pdf, id=68, 469.755pt x 296.77574pt>
 File: IMAGES/BCRTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/BCRTypeII.pdf>
-Package pdftex.def Info: IMAGES/BCRTypeII.pdf used on input line 388.
-(pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
+Package pdftex.def Info: IMAGES/BCRTypeII.pdf used on input line 458.
+(pdftex.def)             Requested size: 234.8775pt x 148.3875pt.
 
-<IMAGES/CtoRTypeII.pdf, id=110, 652.4375pt x 412.18794pt>
+<IMAGES/CtoRTypeII.pdf, id=69, 652.4375pt x 412.18794pt>
 File: IMAGES/CtoRTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/CtoRTypeII.pdf>
-Package pdftex.def Info: IMAGES/CtoRTypeII.pdf used on input line 389.
+Package pdftex.def Info: IMAGES/CtoRTypeII.pdf used on input line 459.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
-<IMAGES/StabilityTypeII.pdf, id=111, 652.4375pt x 412.18794pt>
+<IMAGES/StabilityTypeII.pdf, id=70, 652.4375pt x 412.18794pt>
 File: IMAGES/StabilityTypeII.pdf Graphic file (type pdf)
 
 <use IMAGES/StabilityTypeII.pdf>
-Package pdftex.def Info: IMAGES/StabilityTypeII.pdf used on input line 390.
+Package pdftex.def Info: IMAGES/StabilityTypeII.pdf used on input line 460.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
-
-LaTeX Warning: Float too large for page by 46.9455pt on input line 399.
-
-<IMAGES/CaptureTSRAsymm.pdf, id=112, 652.4375pt x 412.18794pt>
+<IMAGES/CaptureTSRAsymm.pdf, id=71, 652.4375pt x 412.18794pt>
 File: IMAGES/CaptureTSRAsymm.pdf Graphic file (type pdf)
 
 <use IMAGES/CaptureTSRAsymm.pdf>
-Package pdftex.def Info: IMAGES/CaptureTSRAsymm.pdf used on input line 404.
+Package pdftex.def Info: IMAGES/CaptureTSRAsymm.pdf used on input line 474.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
-<IMAGES/HandlingTSRAsymm.pdf, id=113, 652.4375pt x 412.18794pt>
+<IMAGES/HandlingTSRAsymm.pdf, id=72, 652.4375pt x 412.18794pt>
 File: IMAGES/HandlingTSRAsymm.pdf Graphic file (type pdf)
 
 <use IMAGES/HandlingTSRAsymm.pdf>
-Package pdftex.def Info: IMAGES/HandlingTSRAsymm.pdf used on input line 405.
+Package pdftex.def Info: IMAGES/HandlingTSRAsymm.pdf used on input line 475.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
- [15 <./IMAGES/Figure2A.pdf> <./IMAGES/Figure2B.pdf> <./IMAGES/Figure2C.pdf>] [
-16 <./IMAGES/BCRTypeII.pdf> <./IMAGES/CtoRTypeII.pdf> <./IMAGES/StabilityTypeII
-.pdf>] [17 <./IMAGES/CaptureTSRAsymm.pdf> <./IMAGES/HandlingTSRAsymm.pdf>] (./m
-ain.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [16] [17 <./IMAGES/BCRAllTempMassDep.pdf> <./IMAGES/CtoRAllTempMassDep.pdf> <.
+/IMAGES/StabilityAllTempMassDep.pdf>] [18 <./IMAGES/Figure2A.pdf> <./IMAGES/Fig
+ure2B.pdf> <./IMAGES/Figure2C.pdf>] [19 <./IMAGES/FunctionalResponseTemp.pdf>] 
+[20 <./IMAGES/BCRTypeII.pdf> <./IMAGES/CtoRTypeII.pdf> <./IMAGES/StabilityTypeI
+I.pdf>] [21 <./IMAGES/CaptureTSRAsymm.pdf> <./IMAGES/HandlingTSRAsymm.pdf>] (./
+main.aux) ) 
 Here is how much of TeX's memory you used:
- 3247 strings out of 493033
- 43360 string characters out of 6134139
- 108448 words of memory out of 5000000
- 6685 multiletter control sequences out of 15000+600000
+ 3252 strings out of 493033
+ 43538 string characters out of 6134139
+ 111448 words of memory out of 5000000
+ 6689 multiletter control sequences out of 15000+600000
  34877 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,32p,1134b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (17 pages, 494391 bytes).
+ 37i,8n,32p,1669b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (21 pages, 672554 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 325 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

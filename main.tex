@@ -208,7 +208,7 @@ Conversion efficiency is assumed to be independent of temperature such that $e(T
 The black curves in Figure \ref{AllTempMassDep} show $B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius).
 In these plots $r$, $K$, $a$, and $m$ all depend on temperature, unlike Figure 3 in \cite{Gilbert2014} where only $K$ depends on temperature and the rest of the parameters are held constant.
 Comparing with Figure 3 in \cite{Gilbert2014}, we see that adding temperature dependence in $r$, $a$, and $m$ causes equilibrium consumer:resource biomass to decline with temperature (instead of increasing) and stability to decrease at a slower rate  with increasing temperature.
-These changes are largely driven by the temperature dependence of consumer mortality: increasing temperature increases consumer mortality, lowering equilibrium consumer biomass and increasing stability at high temperatures (relative to the case where mortality $m$ does not depend on temperature).
+These changes are largely driven by the temperature dependence of consumer mortality (see supplementary \texttt{Mathematica} file): increasing temperature increases consumer mortality, lowering equilibrium consumer biomass and increasing stability at high temperatures (relative to the case where mortality $m$ does not depend on temperature).
 % * <barbour@zoology.ubc.ca> 2016-06-24T13:58:58.890Z:
 %
 % MO: why do you attribute the decline in C:R biomass and relatively greater stability to higher consumer mortality (primarily)? Is the logic something like: increasing m, by itself, would create this pattern; increasing r, by itself, would increase C:R, but also increase stability (at least in type 1); and increasing a, by itself, would increase C:R, but decrease stability? I'm mainly asking to also check my understanding of the influence of different parameters on C-R models.
@@ -233,7 +233,7 @@ This linear decline best approximates the response of organisms with a dry mass 
 The red curves in Figure \ref{AllTempMassDep} depict our main results: adding mass dependencies and the temperature-size rule modifies our prediction of how consumer-resource dynamics respond to changes in temperature.
 While there is little change in $B_{CR}$, the equilibrium consumer to resource biomass ratio is no longer expected to decline with increasing temperature and stability is now expected to increase.
 These changes are brought on by the indirect effect of temperature, through body mass, on the population dynamic parameters, which are acting in opposition to its direct effects.
-In particular, the lack of decline in the consumer to resource biomass ratio with the temperature-size rule, relative to the case without it, is primarily driven by changes in consumer conversion efficiency and the intrinsic growth rate of the resource.
+In particular, the lack of decline in the consumer to resource biomass ratio with the temperature-size rule, relative to the case without it, is primarily driven by changes in consumer conversion efficiency and the intrinsic growth rate of the resource (see supplementary \texttt{Mathematica} file).
 Both of these rates increase with declining body mass, supporting a relatively larger consumer biomass. 
 The increase in stability at high temperatures with the temperature-size rule is caused by the increase in the resource's intrinsic growth rate along with a decrease in attack rate with decreasing consumer body size. 
 % * <barbour@zoology.ubc.ca> 2016-06-24T13:58:32.133Z:
@@ -275,11 +275,11 @@ In particular, \cite{Rall2012} argue that capture rate scales like
 \[b(T, M_R, M_C) = b_0 M_R^{b_R} M_C^{b_C} \exp(-E_b/(k T))\]
 and handling time like 
 \[h(T, M_R, M_C) = h_0 M_R^{h_R} M_C^{h_C} \exp(-E_h/(k T))\].
-Figure \ref{FunctionalResponseTemp} shows how the functional response changes with temperature.
-Much of the difference in the response of the functional responses to temperature is due to the differing temperature- and mass- dependencies of attack rate $a$ and capture rate $b$ (compare black to red in Figure \ref{FunctionalResponseTemp}), and not due to the form of the functional responses (i.e., setting $h=0$ has little effect on the response of the type-II functional response to temperature).
-When capture rate has the same temperature- and mass- dependencies as attack rate (\cite{Gilbert2014}), there is little difference between the response of the type-I and type-II functional responses to temperature (compare black to blue in Figure \ref{FunctionalResponseTemp}).
+With these scaling the type-II functional response increases faster with temperature than the type-I functional response (see supplementary \texttt{Mathematica} file) %shows how the functional response changes with temperature.
+Much of the difference in the response of the functional responses to temperature is due to the differing temperature- and mass- dependencies of attack rate $a$ and capture rate $b$ (see supplementary \texttt{Mathematica} file), and not due to the form of the functional responses (i.e., setting $h=0$ has little effect on the response of the type-II functional response to temperature).
+When capture rate has the same temperature- and mass- dependencies as attack rate (\cite{Gilbert2014}), there is little difference between the response of the type-I and type-II functional responses to temperature (see supplementary \texttt{Mathematica} file).
 
-With the parameter values given in \cite{Rall2012}, we can plot $B_{CR}$, $\hat{C}:\hat{R}$, and stability as functions of temperature when there is a type-II functional response (see supplementary \texttt{Mathematica} file).
+With the parameter values given in \cite{Rall2012}, we can plot $B_{CR}$, $\hat{C}:\hat{R}$, and stability as functions of temperature when there is a type-II functional response (Figure \ref{TypeII}).
 The main conclusions are: in comparison to a type-I functional response, a type-II functional response i) makes $B_{CR}$ increase faster with temperature, ii) makes equilibrium biomass ratios increase with temperature, and iii) makes stability increase more quickly with temperature, despite the fact that a type-II functional response decreases stability at our reference temperature (15$^\circ$C, i.e., without a direct or indirect temperature response).
 Thus, a type-II functional response, like asymmetric temperature-size responses, causes our predictions to vary further from those without the temperature-size rule \citep{Gilbert2014}.
 % * <barbour@zoology.ubc.ca> 2016-06-24T13:57:51.700Z:
@@ -287,11 +287,12 @@ Thus, a type-II functional response, like asymmetric temperature-size responses,
 % MO: just to clarify, was your exploration of the type 2 functional response always restricted to cases where the equilibrium was stable? I ask, because according to McCann (2012, book), increasing intrinsic growth rate has qualitatively different effects on stability depending on whether the consumer isocline is to the left or right of the resource's hump-shaped isocline. In other words, if the system is exhibiting a stable limit cycle, then increasing intrinsic growth rate will actually further destabilize the system.
 %
 % ^.
+% yes, always where stable (i chose handling time such that this was true)
 
 As an aside, in this analysis we set $b_0$ to give $f(R) = 0.1$ at 15$^\circ C$, to remain consistent with \cite{Gilbert2014}.
 This leaves $h_0$ as a free parameter. 
 However, this free parameter only influences the results in the case of stability.
-When $h_0$ is small enough to allow a stable coexistence equilibrium (roughly $h_0 <10^{-12}$) we find that stability increases exponentially with temperature (see supplementary \texttt{Mathematica} for details).
+When $h_0$ is small enough to allow a stable coexistence equilibrium (roughly $h_0 <10^{-12}$) we find that stability increases exponentially with temperature (blue curve in Figure \ref{TypeII}).
 Thus, even though a type-II functional response decreases stability at the reference temperature (because of the lags induced by handling time), stability is increased at higher temperatures. 
 The increased stability at higher temperatures with a type-II functional response is caused by the temperature dependence of the capture rate (\cite{Rall2012}), which differs from the temperature dependence of the type-I attack rate \citep{Gilbert2014}.
 Giving capture rate the same temperature dependence as attack rate \citep{Gilbert2014}, with a small enough handling time at the reference temperature ($h_0 <\sim10^{-13}$) stability still increases exponentially with temperature, from the reference temperature, but the square root in the expression now allows the temperature dependence of other parameters to slow and revert this increase at higher temperatures.
@@ -299,7 +300,7 @@ Larger handling times prevent the exponential increase in stability with tempera
 
 \cite{Rall2012} complied a large database on capture rates and handling times and compared the data to their theoretical predictions.
 They found that capture rate and handling time responded less strongly to temperature than expected (see their Figure 2a,d).
-Interestingly, we find that the temperature-size rule reduces the sensitivity of both capture rate and handling time to temperature (see supplementary \texttt{Mathematica} file for details), and hence may help explain the discrepancies observed. 
+Interestingly, we find that the temperature-size rule reduces the sensitivity of both capture rate and handling time to temperature (see supplementary \texttt{Mathematica} file) and hence may help explain the discrepancies observed. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{A functional response that depends on the body size ratio}
@@ -443,15 +444,30 @@ Other parameters as in \cite{Gilbert2014} and \cite{DeLong2015}: $E_B = 0.32$, $
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=0.5\linewidth]{FunctionalResponseTemp}
+\includegraphics[width=0.5\linewidth]{BCRTypeII}\\\vspace{-0.75cm}
+\includegraphics[width=0.5\linewidth]{CtoRTypeII}\\\vspace{-0.75cm}
+\includegraphics[width=0.5\linewidth]{StabilityTypeII}
 \caption{
-Functional response as a function of temperature.
-Shown are a type-I functional response (black), a type-II functional response with temperature- and mass-dependencies of capture rate and handling time from \cite{Rall2012} (red), and a type-II functional response with temperature- and mass-dependencies of capture rate like that of attack rate in \cite{Gilbert2014} (blue).
-Rate-constants were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ \citep[as in Figure 3 of][] {Gilbert2014}.
-Other parameters as in \cite{Gilbert2014}, \cite{DeLong2015}, and \cite{Rall2012}: $E_B = 0.32$, $E_S = 0.9$, $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_i = 0.02$, $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$, $h_0 = 10^{-13}$.  
+$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red and blue) and without (black) mass dependencies and the temperature-size rule.
+Type-II functional response in blue.
+Rate-constants were chosen to make $r = 2$, $K = 100$, $f(R) = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in Figure 3 of \cite{Gilbert2014}).
+Other parameters as in \cite{Gilbert2014}, \cite{DeLong2015}, and \cite{Rall2012}: $E_B = 0.32$, $E_S = 0.9$, $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$, $h_0 = 10^{-13}$.  
 }
-\label{FunctionalResponseTemp}
+\label{TypeII}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=0.5\linewidth]{FunctionalResponseTemp}
+%\caption{
+%SUPPLEMENTARY FIGURE. Functional response as a function of temperature.
+%Shown are a type-I functional response (black), a type-II functional response with temperature- and mass-dependencies of capture rate and handling time from \cite{Rall2012} (red), and a type-II functional response with temperature- and mass-dependencies of capture rate like that of attack rate in \cite{Gilbert2014} (blue).
+%Rate-constants were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ \citep[as in Figure 3 of][] {Gilbert2014}.
+%Other parameters as in \cite{Gilbert2014}, \cite{DeLong2015}, and \cite{Rall2012}: $E_B = 0.32$, $E_S = 0.9$, $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_i = 0.02$, $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$, $h_0 = 10^{-13}$.  
+%}
+%\label{FunctionalResponseTemp}
+%\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{figure}[!ht]
@@ -469,33 +485,17 @@ Other parameters as in \cite{Gilbert2014}, \cite{DeLong2015}, and \cite{Rall2012
 %\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=0.5\linewidth]{BCRTypeII}\\\vspace{-0.75cm}
-\includegraphics[width=0.5\linewidth]{CtoRTypeII}\\\vspace{-0.75cm}
-\includegraphics[width=0.5\linewidth]{StabilityTypeII}
-\caption{
-SUPPLEMENTARY FIGURE.
-$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red and blue) and without (black) mass dependencies and the temperature-size rule.
-Type-II functional response in blue.
-Rate-constants were chosen to make $r = 2$, $K = 100$, $f(R) = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in Figure 3 of \cite{Gilbert2014}).
-Other parameters as in \cite{Gilbert2014}, \cite{DeLong2015}, and \cite{Rall2012}: $E_B = 0.32$, $E_S = 0.9$, $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$, $h_0 = 10^{-13}$.  
-}
-\label{TypeII}
-\end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=0.5\linewidth]{CaptureTSRAsymm}\\\vspace{-0.75cm}
-\includegraphics[width=0.5\linewidth]{HandlingTSRAsymm}
-\caption{
-SUPPLEMENTARY FIGURE.
-The sensitivity of capture rate and handling time to temperature with (blue) and without (black) the temperature-size rule.
-Plotted are (A) $\log(b/b0)$ and (B) $\log(h/h0)$.
-Parameters as in \cite{Rall2012}: $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$.
-}
-\label{CaptureTimeT}
-\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=0.5\linewidth]{CaptureTSRAsymm}\\\vspace{-0.75cm}
+%\includegraphics[width=0.5\linewidth]{HandlingTSRAsymm}
+%\caption{
+%SUPPLEMENTARY FIGURE.
+%The sensitivity of capture rate and handling time to temperature with (blue) and without (black) the temperature-size rule.
+%Plotted are (A) $\log(b/b0)$ and (B) $\log(h/h0)$.
+%Parameters as in \cite{Rall2012}: $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$.
+%}
+%\label{CaptureTimeT}
+%\end{figure}
 
 \end{document}

@@ -78,18 +78,14 @@ template for \textit{Am.\ Nat.}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Both body size and temperature directly influence the dynamical relationship between consumers and their resources. There is also a widespread negative relationship between temperature and size; this is known as the temperature-s
-
-
-Mounting evidence suggests that body size declines with increasing temperature, a pattern called the temperature-size rule (TSR). 
-The growing theory on temperature-dependent consumer resource interactions has yet to integrate the TSR into a general framework for how temperature affects consumer resource dynamics. 
+Both body size and temperature directly influence the dynamical relationship between consumers and their resources. There is also a widespread negative relationship between temperature and size; this is known as the temperature-size rule (TSR). The growing theory on temperature-dependent consumer resource interactions has yet to integrate the TSR into a general framework for how temperature affects consumer resource dynamics. 
 We expanded an existing temperature-dependent consumer-resource model to include the indirect effects of warming, through changes in body size, and parameterized the model with values drawn from data syntheses. 
 We analyzed this model to answer the following questions: 
 1) How does including the TSR affect predictions for how temperature affects consumer-resource stability and biomass ratios? 
 2) Under what circumstances are the effects of the TSR most substantial? 
 %3) Is the TSR predicted to induce a change in the functional response? 
 We found that including the TSR led to two qualitatively different predictions: under warming i) consumer-resource biomass is no longer expected to decline and ii) the dynamics are expected to become more stable, as opposed to the decline in stability predicted without the TSR. 
-These qualitatively different predictions were strengthened by asymmetric temperature-size responses and type-II functional responses.
+These qualitatively different predictions were strengthened by asymmetric temperature-size responses between consumers and resources and type-II functional responses.
 Our analyses suggest that the effect of temperature on body size likely plays an important role in the response of consumer-resource systems to changing temperatures. 
 
 \newpage{}
@@ -124,11 +120,11 @@ Our analyses suggest that the effect of temperature on body size likely plays an
 
 Populations of consumers and their resources are joined across time by the fact that energy to the consumer comes from the resource, and the consumer determines mortality rates of the resource. 
 In these systems, temperature-dependent consumption, growth and mortality rates can change dynamics and their outcomes. 
-Through the temperature-dependence of metabolism \citep{West1997,Gillooly2001} and hence temperature-dependent demographic vital rates, small changes in temperature that are not necessarily physiologically stressful for organisms can translate to changes in the stability and coexistence of consumers and their resources, producing predictable but non-intuitive effects of warming on simple food webs \citep{Gilbert2014,Vasseur2005,OConnor2011,Rall2010}. 
+Through the temperature-dependence of metabolism \citep{West1997,Gillooly2001} and hence temperature-dependent demographic vital rates, small changes in temperature that are not necessarily physiologically stressful for organisms can translate to changes in the stability and coexistence of consumers and their resources, producing predictable effects of warming on simple food webs \citep{Gilbert2014,Vasseur2005,OConnor2011,Rall2010}. 
 
 Demographic rates and consumer-resource interactions also depend on body size \citep{Yodzis1992,DeLong2015}. 
 Not only do rates of growth, mortality and consumption scale predictably with individual body sizes, but the consumption rates of consumer-resource systems can also depend on the ratio of body masses between consumers and prey \citep{Kalinkat2013}. 
-Changes in body size or body size ratios can therefore change demographic and interaction rates. Given the importance of body size to the dynamics and outcomes of consumer-resource interactions, frameworks for understanding how temperature affects consumer-resource dynamics have not considered the importance of changes in body size with temperature.
+Changes in body size or the ratio of body sizes between interacting species be can therefore change demographic and interaction rates. Given the importance of body size to the dynamics and outcomes of consumer-resource interactions, frameworks for understanding how temperature affects consumer-resource dynamics have not considered the importance of changes in body size with temperature.
 
 The frequently-observed negative relationship between temperature and body size, the temperature-size rule (TSR), has been called the third universal response to warming \citep{Gardner2011}. 
 % * <mwpennell@gmail.com> 2016-06-24T21:49:24.120Z:
@@ -177,14 +173,14 @@ Consumers biomass dies at a constant per unit biomass mortality rate $m\geq0$.
 
 An equilibrium is reached when the two rates of change in Equation \eqref{eq:RM} are zero, and solving the system at this point gives equilibrium resource $\hat{R}$ and consumer $\hat{C}$ biomass.
 There are three equilibria for this system: total extinction $(R,C) = (0,0)$, consumer extinction $(R,C)=(K,0)$, and coexistence $(R,C)=(\hat{R},\hat{C})$, with $\hat{R}>0$ and $\hat{C}>0$.
-We are primarily concerned with the latter equilibrium, as that is presumably the equilibrium current consumer-resource systems are near (we would not consider them consumer-resource systems if either the consumer or resource were absent).
+We are primarily concerned with the latter equilibrium, as that is presumably the equilibrium current consumer-resource systems are near.
 At this coexistence equilibrium one can calculate the ratio of consumer to resource biomass, $\hat{C}:\hat{R}$, and also perform a linear stability analysis to derive the leading (largest in absolute value) eigenvalue $\lambda$, which determines if (and how readily) the system, when perturbed a small amount from this equilibrium, will return to it (see the supplementary \texttt{Mathematica} file for details).
 Our measure of stability will be the negative of the real part of the leading eigenvalue.
 %I think I'm getting confused by the wording here in lines 170 and 171. For a continuous time model such as this one, doesn't a negative eigenvalue correspond to a stable system?
 The system is stable if and only if this value is positive, and the system will return to equilibrium faster when this value is larger (i.e., larger positive values imply ``more stable" systems).
 Together these two measures tell us how biomass is partitioned and how stable this partitioning is.
 
-As explained in \cite{Gilbert2014}, two aggregates well describe the dynamics of this system.
+As explained in \cite{Gilbert2014}, two aggregate parameters well describe the dynamics of this system.
 The first is $m /(e f(\hat{R}))$, which describes (the inverse of) consumer growth at equilibrium, is the slope of the consumer zero-net growth isocline, and is the abundance of the resource at the coexistence equilibrium.
 The second aggregate is $K$, the equilibrium resource biomass in the absence of consumers.
 Dividing the second aggregate by the first gives a measure that defines the biomass potential of the resource that is converted into consumer biomass \[B_{CR} = \frac{e f(\hat{R}) K}{m}.\]
@@ -198,7 +194,7 @@ We later explore the effect of a type-II functional response and the potential f
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Adding temperature dependence}
 
-\cite{Gilbert2014} discuss what is known about the temperature dependencies of the population dynamic parameters $r$, $K$, $a$, $m$, and $e$, and give equations and parameter estimates in their Table 1.
+\cite{Gilbert2014} discuss what is known about the temperature dependencies of the population dynamic parameters $r$, $K$, $a$, $m$, and $e$, and give equations and parameter estimates (from previously published sources) in their Table 1.
 Briefly, resource growth rate $r$ is expected to scale with metabolism as a Boltzmann-Arrhenius factor, \[r(T) = r_0 \exp(-E_B/(kT))\] where $E_B$ is the activation energy of metabolism $B$ (in units of eV), $k$ is Boltzmann's constant ($\approx 8.62 \times 10^{-5}$ eV/Kelvin), and $T$ is the temperature (in Kelvins).
 Resource carrying capacity $K$ is determined by the ratio of the supply rate of nutrients into the system, S, and the rate of uptake of nutrients by the resource, $r$.
 With supply rate also scaling as a Boltzmann-Arrhenius factor with activation energy $E_S$, the prediction for carrying capacity becomes  \[K(T) = K_0 \exp(-(E_S - E_B)/(kT)).\] 
@@ -208,6 +204,7 @@ Consumer mortality is also expected to scale as a Boltzmann-Arrhenius factor, \[
 Conversion efficiency is assumed to be independent of temperature such that $e(T) = e_0$.
 
 The black curves in Figure \ref{AllTempMassDep} show $B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius).
+In Figure 3 of \citet{Gilbert2014}, only $K$ depends on temperature; the rest are held constant. If we consider all of the additional dependencies discussed by \citet{Gilbert2014}
 In these plots $r$, $K$, $a$, and $m$ all depend on temperature, unlike Figure 3 in \cite{Gilbert2014} where only $K$ depends on temperature and the rest of the parameters are held constant.
 Comparing with Figure 3 in \cite{Gilbert2014}, we see that adding temperature dependence in $r$, $a$, and $m$ causes equilibrium consumer:resource biomass to decline with temperature (instead of increasing) and stability to decrease at a slower rate  with increasing temperature.
 These changes are largely driven by the temperature dependence of consumer mortality (see supplementary \texttt{Mathematica} file): increasing temperature increases consumer mortality, lowering equilibrium consumer biomass and increasing stability at high temperatures (relative to the case where mortality $m$ does not depend on temperature).
